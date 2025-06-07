@@ -11,3 +11,4 @@ class UsuarioViewset(ModelViewSet):
         if self.action == 'create':
             return UsuarioCrearSerializer
         return UsuarioResponseSerializer
+    
